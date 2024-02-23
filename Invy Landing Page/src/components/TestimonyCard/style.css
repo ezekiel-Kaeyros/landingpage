@@ -1,0 +1,247 @@
+.testimony-card {
+  align-items: flex-start;
+  border-radius: 12px;
+  display: inline-flex;
+  left: 20px;
+  position: relative;
+}
+
+.testimony-card .image {
+  position: relative;
+}
+
+.testimony-card .container {
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.testimony-card .text-2 {
+  margin-top: -1px;
+  position: relative;
+}
+
+.testimony-card .text-container {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+}
+
+.testimony-card .tittle {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.testimony-card .text-3 {
+  font-family: "Visby CF-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.testimony-card .img {
+  position: relative;
+}
+
+.testimony-card.property-1-light {
+  background-color: #e9e9e9;
+  gap: 12px;
+  padding: 10px;
+  top: 570px;
+}
+
+.testimony-card.property-1-mobile {
+  background-color: #565656;
+  gap: 12px;
+  padding: 10px;
+  top: 412px;
+}
+
+.testimony-card.property-1-default {
+  background-color: #565656;
+  gap: 13px;
+  padding: 20px;
+  top: 20px;
+}
+
+.testimony-card.property-1-variant-2 {
+  background-color: var(--primitives-colors-grey-100);
+  gap: 13px;
+  padding: 20px;
+  top: 216px;
+}
+
+.testimony-card.property-1-light .image {
+  height: 113px;
+  width: 113px;
+}
+
+.testimony-card.property-1-mobile .image {
+  height: 113px;
+  width: 113px;
+}
+
+.testimony-card.property-1-default .image {
+  height: 132px;
+  width: 132px;
+}
+
+.testimony-card.property-1-variant-2 .image {
+  height: 132px;
+  width: 132px;
+}
+
+.testimony-card.property-1-light .container {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+}
+
+.testimony-card.property-1-mobile .container {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+}
+
+.testimony-card.property-1-default .container {
+  display: flex;
+  gap: 20px;
+  width: 455px;
+}
+
+.testimony-card.property-1-variant-2 .container {
+  display: flex;
+  gap: 20px;
+  width: 455px;
+}
+
+.testimony-card.property-1-light .text-2 {
+  color: #1b1b1b;
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 353px;
+}
+
+.testimony-card.property-1-mobile .text-2 {
+  color: var(--primitives-colors-white-100);
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 353px;
+}
+
+.testimony-card.property-1-default .text-2 {
+  align-self: stretch;
+  color: var(--primitives-colors-white-100);
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+}
+
+.testimony-card.property-1-variant-2 .text-2 {
+  align-self: stretch;
+  color: var(--primitives-colors-grey-500);
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+}
+
+.testimony-card.property-1-light .tittle {
+  color: #1e1e1e;
+  font-family: "Visby CF-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 19.2px;
+}
+
+.testimony-card.property-1-mobile .tittle {
+  color: var(--primitives-colors-white-200);
+  font-family: "Visby CF-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 19.2px;
+}
+
+.testimony-card.property-1-default .tittle {
+  color: var(--primitives-colors-white-200);
+  font-family: var(--subtitle-font-family);
+  font-size: var(--subtitle-font-size);
+  font-style: var(--subtitle-font-style);
+  font-weight: var(--subtitle-font-weight);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+}
+
+.testimony-card.property-1-variant-2 .tittle {
+  color: var(--primitives-colors-grey-400);
+  font-family: var(--subtitle-font-family);
+  font-size: var(--subtitle-font-size);
+  font-style: var(--subtitle-font-style);
+  font-weight: var(--subtitle-font-weight);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+}
+
+.testimony-card.property-1-light .text-3 {
+  color: var(--primitives-colors-white-800);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.testimony-card.property-1-mobile .text-3 {
+  color: var(--primitives-colors-white-800);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.testimony-card.property-1-default .text-3 {
+  color: var(--primitives-colors-white-800);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.testimony-card.property-1-variant-2 .text-3 {
+  color: var(--primitives-colors-white-900);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.testimony-card.property-1-light .img {
+  height: 29.75px;
+  width: 34.75px;
+}
+
+.testimony-card.property-1-mobile .img {
+  height: 29.75px;
+  width: 34.75px;
+}
+
+.testimony-card.property-1-default .img {
+  height: 35.7px;
+  width: 41.7px;
+}
+
+.testimony-card.property-1-variant-2 .img {
+  height: 35.7px;
+  width: 41.7px;
+}

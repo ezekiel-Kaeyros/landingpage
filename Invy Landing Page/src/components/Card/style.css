@@ -1,0 +1,46 @@
+.card {
+  align-items: flex-start;
+  background: radial-gradient(50% 50% at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1.2px solid;
+  border-color: var(--primitives-colors-grey-300);
+  border-radius: var(--tokens-dimensions-spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 182px;
+  justify-content: center;
+  left: 7656px;
+  overflow: hidden;
+  padding: 24px;
+  position: relative;
+  top: 1428px;
+  width: 421px;
+}
+
+.card .number {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(76, 76, 76, 0) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Inter", Helvetica;
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-fill-color: transparent;
+  width: fit-content;
+}
+
+.card .heading {
+  align-self: stretch;
+  color: #4c4c4c;
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  position: relative;
+}

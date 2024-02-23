@@ -1,0 +1,359 @@
+.button {
+  all: unset;
+  align-items: center;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+}
+
+.button .text {
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .text-wrapper {
+  color: var(--tokens-colors-button-btn-colors);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .add-instance {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.button .div {
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.outlined-true {
+  border: 1px solid;
+}
+
+.button.desktop {
+  border-radius: var(--primitives-spacing-spacing-4-3);
+}
+
+.button.mobile {
+  border-radius: var(--tokens-raduis-sm);
+}
+
+.button.disabled {
+  opacity: 0.6;
+}
+
+.button.active {
+  border: 1px solid;
+  border-color: var(--tokens-colors-button-btn-colors);
+}
+
+.button.outlined-true.icon-only {
+  gap: var(--tokens-spacing-4-pt-none);
+}
+
+.button.icon-only.desktop {
+  padding: var(--tokens-spacing-4-pt-2-duplicate);
+}
+
+.button.active.outlined-false {
+  background-color: var(--tokens-colors-button-btn-colors);
+}
+
+.button.left-icon.desktop {
+  gap: var(--tokens-spacing-4-pt-1);
+  padding: var(--tokens-spacing-4-pt-2-duplicate) var(--tokens-spacing-4-pt-5) var(--tokens-spacing-4-pt-2-duplicate)
+    var(--tokens-spacing-4-pt-5);
+}
+
+.button.right-icon.mobile {
+  gap: var(--tokens-spacing-4-pt-half);
+  padding: var(--tokens-spacing-4-pt-1) var(--tokens-spacing-4-pt-3) var(--tokens-spacing-4-pt-1)
+    var(--tokens-spacing-4-pt-3);
+}
+
+.button.disabled.outlined-true {
+  border-color: var(--tokens-colors-button-border);
+}
+
+.button.default.desktop {
+  padding: 16px var(--tokens-spacing-4-pt-5) 16px var(--tokens-spacing-4-pt-5);
+}
+
+.button.outlined-false.icon-only {
+  gap: var(--tokens-spacing-4-pt-1);
+}
+
+.button.mobile.icon-only {
+  padding: var(--tokens-spacing-4-pt-1);
+}
+
+.button.default.mobile {
+  padding: 11px var(--tokens-spacing-4-pt-3) 11px var(--tokens-spacing-4-pt-3);
+}
+
+.button.right-icon.desktop {
+  gap: var(--tokens-spacing-4-pt-1);
+  padding: var(--tokens-spacing-4-pt-2-duplicate) var(--tokens-spacing-4-pt-5) var(--tokens-spacing-4-pt-2-duplicate)
+    var(--tokens-spacing-4-pt-5);
+}
+
+.button.left-icon.mobile {
+  gap: var(--tokens-spacing-4-pt-half);
+  padding: var(--tokens-spacing-4-pt-1) var(--tokens-spacing-4-pt-3) var(--tokens-spacing-4-pt-1)
+    var(--tokens-spacing-4-pt-3);
+}
+
+.button.disabled.outlined-false {
+  background-color: var(--tokens-colors-button-border);
+}
+
+.button.disabled.outlined-false.desktop {
+  top: 257px;
+}
+
+.button.active.icon-only.desktop {
+  left: 416px;
+}
+
+.button.active.outlined-true.mobile {
+  top: 335px;
+}
+
+.button.outlined-true.icon-only.desktop {
+  left: 416px;
+}
+
+.button.default.active.outlined-true {
+  gap: var(--tokens-spacing-4-pt-1);
+  left: 19px;
+}
+
+.button.disabled.outlined-true.desktop {
+  top: 177px;
+}
+
+.button.active.left-icon.desktop {
+  left: 130px;
+}
+
+.button.desktop.outlined-true.left-icon {
+  left: 130px;
+}
+
+.button.default.active.desktop {
+  height: 50px;
+  left: 19px;
+}
+
+.button.active.outlined-true.desktop {
+  top: 19px;
+}
+
+.button.default.active.mobile {
+  top: 335px;
+}
+
+.button.right-icon.active.desktop {
+  left: 273px;
+}
+
+.button.right-icon.outlined-true.desktop {
+  left: 273px;
+}
+
+.button.active.outlined-false.desktop {
+  top: 98px;
+}
+
+.button.default.outlined-true.desktop {
+  height: 50px;
+  left: 19px;
+}
+
+.button.active.outlined-false.mobile.icon-only {
+  left: 253px;
+  top: 406px;
+}
+
+.button.disabled.outlined-true.mobile.icon-only {
+  left: 265px;
+  top: 477px;
+}
+
+.button.right-icon.active.outlined-false.mobile {
+  left: 136px;
+  top: 406px;
+}
+
+.button.disabled.outlined-false.icon-only.desktop {
+  left: 417px;
+}
+
+.button.right-icon.disabled.outlined-false.desktop {
+  left: 274px;
+}
+
+.button.default.disabled.outlined-false.desktop {
+  height: 48px;
+  left: 20px;
+}
+
+.button.disabled.outlined-false.left-icon.mobile {
+  left: 20px;
+  top: 549px;
+}
+
+.button.right-icon.active.outlined-true.mobile {
+  left: 225px;
+}
+
+.button.active.outlined-false.left-icon.mobile {
+  left: 19px;
+  top: 406px;
+}
+
+.button.disabled.outlined-false.mobile.icon-only {
+  left: 266px;
+  top: 549px;
+}
+
+.button.active.outlined-true.mobile.icon-only {
+  left: 342px;
+}
+
+.button.right-icon.disabled.outlined-true.mobile {
+  left: 142px;
+  top: 477px;
+}
+
+.button.default.disabled.outlined-true.mobile {
+  left: 308px;
+  top: 406px;
+}
+
+.button.disabled.outlined-false.left-icon.desktop {
+  left: 131px;
+}
+
+.button.default.disabled.outlined-false.mobile {
+  left: 321px;
+  top: 478px;
+}
+
+.button.default.active.outlined-false.mobile {
+  left: 397px;
+}
+
+.button.active.left-icon.mobile.outlined-true {
+  left: 108px;
+}
+
+.button.right-icon.disabled.outlined-false.mobile {
+  left: 143px;
+  top: 549px;
+}
+
+.button.disabled.left-icon.mobile.outlined-true {
+  left: 19px;
+  top: 477px;
+}
+
+.button.outlined-false .text {
+  color: var(--tokens-colors-button-label);
+}
+
+.button.outlined-true .text {
+  color: var(--tokens-colors-button-btn-colors);
+}
+
+.button.desktop .text {
+  font-family: var(--button-text-font-family);
+  font-size: var(--button-text-font-size);
+  font-style: var(--button-text-font-style);
+  font-weight: var(--button-text-font-weight);
+  letter-spacing: var(--button-text-letter-spacing);
+  line-height: var(--button-text-line-height);
+}
+
+.button.disabled .text {
+  font-family: var(--button-text-font-family);
+  font-size: var(--button-text-font-size);
+  font-style: var(--button-text-font-style);
+  font-weight: var(--button-text-font-weight);
+  letter-spacing: var(--button-text-letter-spacing);
+  line-height: var(--button-text-line-height);
+}
+
+.button.active.mobile .text {
+  font-family: "Visby CF-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16.8px;
+}
+
+.button.desktop .text-wrapper {
+  font-family: var(--button-text-font-family);
+  font-size: var(--button-text-font-size);
+  font-style: var(--button-text-font-style);
+  font-weight: var(--button-text-font-weight);
+  letter-spacing: var(--button-text-letter-spacing);
+  line-height: var(--button-text-line-height);
+}
+
+.button.disabled .text-wrapper {
+  font-family: var(--button-text-font-family);
+  font-size: var(--button-text-font-size);
+  font-style: var(--button-text-font-style);
+  font-weight: var(--button-text-font-weight);
+  letter-spacing: var(--button-text-letter-spacing);
+  line-height: var(--button-text-line-height);
+}
+
+.button.active.mobile .text-wrapper {
+  font-family: "Visby CF-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16.8px;
+}
+
+.button.outlined-false .div {
+  color: var(--tokens-colors-button-label);
+}
+
+.button.outlined-true .div {
+  color: var(--tokens-colors-button-btn-colors);
+}
+
+.button.desktop .div {
+  font-family: var(--button-text-font-family);
+  font-size: var(--button-text-font-size);
+  font-style: var(--button-text-font-style);
+  font-weight: var(--button-text-font-weight);
+  letter-spacing: var(--button-text-letter-spacing);
+  line-height: var(--button-text-line-height);
+}
+
+.button.disabled .div {
+  font-family: var(--button-text-font-family);
+  font-size: var(--button-text-font-size);
+  font-style: var(--button-text-font-style);
+  font-weight: var(--button-text-font-weight);
+  letter-spacing: var(--button-text-letter-spacing);
+  line-height: var(--button-text-line-height);
+}
+
+.button.active.mobile .div {
+  font-family: "Visby CF-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 16.8px;
+}

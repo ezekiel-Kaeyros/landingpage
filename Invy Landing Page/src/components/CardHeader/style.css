@@ -1,0 +1,61 @@
+.card-header {
+  align-items: center;
+  background-color: var(--primitives-colors-grey-500);
+  border-radius: var(--tokens-raduis-sm);
+  display: flex;
+  gap: 10px;
+  left: 8329px;
+  overflow: hidden;
+  padding: var(--tokens-raduis-sm) var(--tokens-raduis-lg) var(--tokens-raduis-sm) var(--tokens-raduis-lg);
+  position: relative;
+  top: 1341px;
+  width: 225px;
+}
+
+.card-header .avatar-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.card-header .avatar-2 {
+  height: 50px;
+  position: relative;
+  width: 50px;
+}
+
+.card-header .media-content {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  position: relative;
+}
+
+.card-header .anan-rio {
+  color: var(--white);
+  font-family: "Visby CF-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.card-header .text-wrapper-2 {
+  color: var(--white);
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 25.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

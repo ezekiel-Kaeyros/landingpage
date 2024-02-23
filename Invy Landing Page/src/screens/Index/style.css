@@ -1,0 +1,2331 @@
+.index {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.index .phone {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.index .text-hero {
+  left: 1px;
+  position: absolute;
+  top: 0;
+}
+
+.index .hero-text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-6);
+  justify-content: center;
+}
+
+.index .text-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-3);
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.index .control-your-stocks {
+  align-self: stretch;
+  color: var(--tokens-colors-text-text-colors);
+  margin-top: -1px;
+  position: relative;
+}
+
+.index .p {
+  align-self: stretch;
+  color: var(--tokens-colors-text-subtitile-text);
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: relative;
+}
+
+.index .btn {
+  align-items: center;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.index .button-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  margin-bottom: -2px !important;
+  margin-left: -2px !important;
+  margin-top: -2px !important;
+  top: unset !important;
+}
+
+.index .play-circle-instance {
+  left: unset !important;
+  margin-left: -1px !important;
+  margin-top: -1px !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.index .class {
+  align-self: stretch !important;
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  left: unset !important;
+  margin-bottom: -2px !important;
+  margin-right: -2px !important;
+  margin-top: -2px !important;
+  top: unset !important;
+}
+
+.index .button-3 {
+  flex: 0 0 auto !important;
+  height: 52px !important;
+  left: unset !important;
+  margin-bottom: -2px !important;
+  margin-right: -2px !important;
+  margin-top: -2px !important;
+  top: unset !important;
+}
+
+.index .instance-node-2 {
+  margin-left: -1px !important;
+}
+
+.index .image-2 {
+  height: 398px;
+  left: 516px;
+  object-fit: cover;
+  position: absolute;
+  top: 160px;
+  width: 283px;
+}
+
+.index .text-hero-2 {
+  height: 737px;
+  left: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1512px;
+}
+
+.index .hero-text-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-6);
+  justify-content: center;
+  left: 44px;
+  position: absolute;
+  top: 266px;
+}
+
+.index .text-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-3);
+  justify-content: center;
+  position: relative;
+}
+
+.index .control-your-stocks-2 {
+  color: var(--tokens-colors-text-text-colors);
+  font-family: var(--header-lg-font-family);
+  font-size: var(--header-lg-font-size);
+  font-style: var(--header-lg-font-style);
+  font-weight: var(--header-lg-font-weight);
+  letter-spacing: var(--header-lg-letter-spacing);
+  line-height: var(--header-lg-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.index .text-wrapper-3 {
+  color: var(--tokens-colors-text-subtitile-text);
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  position: relative;
+  width: 518px;
+}
+
+.index .btn-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: var(--primitives-spacing-spacing-4-4);
+  position: relative;
+}
+
+.index .capture-d-cran {
+  height: 1099px;
+  left: 926px;
+  position: absolute;
+  top: 117px;
+  width: 541px;
+}
+
+.index .trust-us {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-7);
+  left: 215px;
+  position: absolute;
+  top: 807px;
+}
+
+.index .text-wrapper-4 {
+  align-self: stretch;
+  color: var(--tokens-colors-text-text-colors);
+  font-family: var(--header-md-font-family);
+  font-size: var(--header-md-font-size);
+  font-style: var(--header-md-font-style);
+  font-weight: var(--header-md-font-weight);
+  letter-spacing: var(--header-md-letter-spacing);
+  line-height: var(--header-md-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.index .our-partener {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: var(--tokens-raduis-xl);
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.index .frame-2 {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65d32b5268a8bafd15412b96/img/frame-2608184@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 45px;
+  position: relative;
+  width: 103.85px;
+}
+
+.index .bwv-logo-tiefschwarz {
+  height: 45.31px;
+  object-fit: cover;
+  position: relative;
+  width: 117.8px;
+}
+
+.index .sechoircam {
+  height: 45.31px;
+  object-fit: cover;
+  position: relative;
+  width: 128.8px;
+}
+
+.index .vaanah {
+  height: 45.31px;
+  object-fit: cover;
+  position: relative;
+  width: 160.68px;
+}
+
+.index .woodtech {
+  height: 45.31px;
+  object-fit: cover;
+  position: relative;
+  width: 103.77px;
+}
+
+.index .ease {
+  height: 45.31px;
+  object-fit: cover;
+  position: relative;
+  width: 92.26px;
+}
+
+.index .img-3 {
+  height: 45.31px;
+  object-fit: cover;
+  position: relative;
+  width: 48.11px;
+}
+
+.index .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 40px;
+  left: 47px;
+  position: absolute;
+  top: 1070px;
+}
+
+.index .feature {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-9);
+  position: relative;
+  width: 1420px;
+}
+
+.index .feature-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-2);
+  position: relative;
+  width: 100%;
+}
+
+.index .text-wrapper-5 {
+  color: var(--tokens-colors-text-subtitile-text);
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  position: relative;
+  text-align: center;
+  width: 436px;
+}
+
+.index .frame-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.index .frame-5 {
+  background: linear-gradient(180deg, rgba(35.26, 35.26, 35.26, 0.2) 0%, rgba(255, 254.79, 254.79, 0) 100%);
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-1-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  width: 460px;
+}
+
+.index .frame-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 50px;
+  position: absolute;
+  top: 38px;
+  width: 324px;
+}
+
+.index .truck {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(30, 30, 30) 0%, rgba(75.44, 73.55, 73.55, 0.79) 100%);
+  border-radius: var(--primitives-spacing-spacing-8-13);
+  display: flex;
+  gap: 10px;
+  height: 70px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  width: 70px;
+}
+
+.index .instance-node-3 {
+  height: 35px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 35px !important;
+}
+
+.index .content {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-2);
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.index .text-wrapper-6 {
+  align-self: stretch;
+  color: #000000;
+  font-family: var(--postitle-font-family);
+  font-size: var(--postitle-font-size);
+  font-style: var(--postitle-font-style);
+  font-weight: var(--postitle-font-weight);
+  letter-spacing: var(--postitle-letter-spacing);
+  line-height: var(--postitle-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.index .text-wrapper-7 {
+  align-self: stretch;
+  color: var(--tokens-colors-text-text-colors);
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  position: relative;
+}
+
+.index .phone-2 {
+  height: 721px;
+  left: 54px;
+  position: absolute;
+  top: 299px;
+  width: 353px;
+}
+
+.index .frame-7 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+  position: relative;
+}
+
+.index .frame-8 {
+  align-self: stretch;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-2-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  height: 330px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.index .container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 36px;
+  position: absolute;
+  top: 38px;
+  width: 297px;
+}
+
+.index .text-wrapper-8 {
+  color: #000000;
+  font-family: var(--postitle-font-family);
+  font-size: var(--postitle-font-size);
+  font-style: var(--postitle-font-style);
+  font-weight: var(--postitle-font-weight);
+  letter-spacing: var(--postitle-letter-spacing);
+  line-height: var(--postitle-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .phone-3 {
+  height: 717px;
+  left: 479px;
+  position: absolute;
+  top: 38px;
+  width: 372px;
+}
+
+.index .frame-9 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.index .frame-10 {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(39.51, 35.4, 35.4, 0.2) 0%, rgba(255, 246.29, 246.29, 0) 100%);
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-3-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  flex: 1;
+  flex-grow: 1;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+}
+
+.index .container-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 36px;
+  position: absolute;
+  top: 38px;
+  width: 303px;
+}
+
+.index .vector {
+  height: 123px;
+  left: 179px;
+  position: absolute;
+  top: 327px;
+  width: 339px;
+}
+
+.index .container-wrapper {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(86.26, 83.03, 83.03, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  flex: 1;
+  flex-grow: 1;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+}
+
+.index .container-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  left: 36px;
+  position: relative;
+  top: 38px;
+  width: 303px;
+}
+
+.index .group {
+  height: 525px;
+  left: 47px;
+  position: absolute;
+  top: 2139px;
+  width: 1420px;
+}
+
+.index .trust-us-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.index .our-trusted-partners {
+  position: relative;
+}
+
+.index .text-wrapper-9 {
+  color: #000000;
+  font-family: var(--header-md-font-family);
+  font-size: var(--header-md-font-size);
+  font-style: var(--header-md-font-style);
+  font-weight: var(--header-md-font-weight);
+  letter-spacing: var(--header-md-letter-spacing);
+  line-height: var(--header-md-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 494px;
+}
+
+.index .our-partener-2 {
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.index .frame-11 {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65d32b5268a8bafd15412b96/img/frame-2608184@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.index .div-wrapper {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 10px;
+  justify-content: center;
+  padding: 19px 0px;
+  position: relative;
+}
+
+.index .text-wrapper-10 {
+  color: var(--tokens-colors-text-subtitile-text);
+  flex: 1;
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  position: relative;
+}
+
+.index .bwv-logo-tiefschwarz-2 {
+  object-fit: cover;
+  position: relative;
+}
+
+.index .text-wrapper-11 {
+  color: var(--tokens-colors-text-subtitile-text);
+  flex: 1;
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.index .sechoircam-2 {
+  object-fit: cover;
+  position: relative;
+}
+
+.index .vaanah-2 {
+  object-fit: cover;
+  position: relative;
+}
+
+.index .woodtech-2 {
+  object-fit: cover;
+  position: relative;
+}
+
+.index .ease-2 {
+  object-fit: cover;
+  position: relative;
+}
+
+.index .kahef {
+  object-fit: cover;
+  position: relative;
+}
+
+.index .cohedo {
+  object-fit: cover;
+  position: relative;
+}
+
+.index .frame-12 {
+  align-items: flex-start;
+  display: flex;
+  gap: 20px;
+  left: 46px;
+  position: absolute;
+  top: 3523px;
+  width: 1422px;
+}
+
+.index .frame-13 {
+  height: 583px;
+  position: relative;
+  width: 461px;
+}
+
+.index .frame-14 {
+  align-items: flex-start;
+  align-self: stretch;
+  background: linear-gradient(180deg, rgb(233, 233, 233) 0%, rgba(233, 233, 233, 0) 100%);
+  border: 1px solid;
+  border-color: var(--tokens-colors-button-border);
+  border-radius: var(--tokens-dimensions-spacing-md);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 40px;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  margin-top: -1px;
+  overflow: hidden;
+  padding: 40px;
+  position: relative;
+}
+
+.index .text-wrapper-12 {
+  color: var(--tokens-colors-text-text-colors);
+  font-family: var(--header-md-font-family);
+  font-size: var(--header-md-font-size);
+  font-style: var(--header-md-font-style);
+  font-weight: var(--header-md-font-weight);
+  letter-spacing: var(--header-md-letter-spacing);
+  line-height: var(--header-md-line-height);
+  position: relative;
+  width: 558px;
+}
+
+.index .frame-15 {
+  align-self: stretch;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.index .card-instance {
+  height: 202px !important;
+  left: -1px !important;
+  position: absolute !important;
+  top: -1px !important;
+}
+
+.index .card-2 {
+  height: 202px !important;
+  left: 441px !important;
+  position: absolute !important;
+  top: -1px !important;
+}
+
+.index .card-3 {
+  height: 202px !important;
+  left: -1px !important;
+  position: absolute !important;
+  top: 219px !important;
+}
+
+.index .card-4 {
+  height: 202px !important;
+  left: 441px !important;
+  position: absolute !important;
+  top: 219px !important;
+}
+
+.index .frame-16 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.index .feature-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-9);
+  position: relative;
+}
+
+.index .text-wrapper-13 {
+  align-self: stretch;
+  color: var(--tokens-colors-text-text-colors);
+  font-family: var(--header-sm-font-family);
+  font-size: var(--header-sm-font-size);
+  font-style: var(--header-sm-font-style);
+  font-weight: var(--header-sm-font-weight);
+  letter-spacing: var(--header-sm-letter-spacing);
+  line-height: var(--header-sm-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.index .text-wrapper-14 {
+  color: var(--tokens-colors-text-subtitile-text);
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: relative;
+  text-align: center;
+}
+
+.index .frame-17 {
+  position: relative;
+}
+
+.index .frame-18 {
+  align-self: stretch;
+  background: linear-gradient(180deg, rgba(35.26, 35.26, 35.26, 0.2) 0%, rgba(255, 254.79, 254.79, 0) 100%);
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-1-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  height: 475px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.index .frame-19 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 38px;
+  position: absolute;
+  top: 40px;
+  width: 295px;
+}
+
+.index .truck-2 {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(30, 30, 30) 0%, rgba(75.44, 73.55, 73.55, 0.79) 100%);
+  border-radius: 74.29px;
+  display: flex;
+  gap: 7.14px;
+  height: 50px;
+  justify-content: center;
+  padding: 7.14px;
+  position: relative;
+  width: 50px;
+}
+
+.index .instance-node-4 {
+  height: 25px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 25px !important;
+}
+
+.index .text-wrapper-15 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Visby CF-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.index .text-wrapper-16 {
+  align-self: stretch;
+  color: var(--tokens-colors-text-text-colors);
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: relative;
+}
+
+.index .image-3 {
+  height: 265px;
+  left: 61px;
+  object-fit: cover;
+  position: absolute;
+  top: 210px;
+  width: 256px;
+}
+
+.index .frame-20 {
+  align-self: stretch;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-2-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  height: 475px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.index .container-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 38px;
+  position: absolute;
+  top: 40px;
+  width: 281px;
+}
+
+.index .text-wrapper-17 {
+  color: #000000;
+  font-family: "Visby CF-Medium", Helvetica;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .image-4 {
+  height: 244px;
+  left: 53px;
+  object-fit: cover;
+  position: absolute;
+  top: 231px;
+  width: 272px;
+}
+
+.index .overlap-group-wrapper {
+  align-self: stretch;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(39.51, 35.4, 35.4, 0.2) 0%, rgba(255, 246.29, 246.29, 0) 100%);
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.index .overlap-group {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-3-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+  width: 460px;
+}
+
+.index .container-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 38px;
+  position: absolute;
+  top: 28px;
+  width: 196px;
+}
+
+.index .text-wrapper-18 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Visby CF-Medium", Helvetica;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.index .vector-2 {
+  height: 123px;
+  left: 167px;
+  position: absolute;
+  top: 257px;
+  width: 210px;
+}
+
+.index .overlap-wrapper {
+  align-self: stretch;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(86.26, 83.03, 83.03, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  height: 371px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.index .overlap {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 450px;
+  width: 460px;
+}
+
+.index .container-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 38px;
+  position: relative;
+  top: 40px;
+  width: 196px;
+}
+
+.index .frame-21 {
+  background: linear-gradient(180deg, rgba(35.26, 35.26, 35.26, 0.2) 0%, rgba(255, 254.79, 254.79, 0) 100%);
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-1-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  height: 691px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 270px;
+}
+
+.index .frame-22 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 22px;
+  position: absolute;
+  top: 38px;
+  width: 226px;
+}
+
+.index .image-5 {
+  height: 406px;
+  left: 21px;
+  object-fit: cover;
+  position: absolute;
+  top: 285px;
+  width: 229px;
+}
+
+.index .frame-23 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 280px;
+  position: absolute;
+  top: 0;
+  width: 474px;
+}
+
+.index .frame-24 {
+  align-self: stretch;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-2-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  height: 306px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.index .container-8 {
+  height: 176px;
+  left: 22px;
+  position: absolute;
+  top: 38px;
+  width: 214px;
+}
+
+.index .document-text-wrapper {
+  align-items: center;
+  background: linear-gradient(180deg, rgb(30, 30, 30) 0%, rgba(75.44, 73.55, 73.55, 0.79) 100%);
+  border-radius: 74.29px;
+  display: flex;
+  gap: 7.14px;
+  height: 50px;
+  justify-content: center;
+  left: 0;
+  padding: 7.14px;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+
+.index .content-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-2);
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 66px;
+  width: 214px;
+}
+
+.index .image-6 {
+  height: 228px;
+  left: 260px;
+  object-fit: cover;
+  position: absolute;
+  top: 78px;
+  width: 181px;
+}
+
+.index .frame-25 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  height: 371px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.index .frame-26 {
+  align-self: stretch;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(39.51, 35.4, 35.4, 0.2) 0%, rgba(255, 246.29, 246.29, 0) 100%);
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-3-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  flex: 1;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.index .container-9 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 18px;
+  position: absolute;
+  top: 24px;
+  width: 196px;
+}
+
+.index .vector-3 {
+  height: 109px;
+  left: 53px;
+  position: absolute;
+  top: 262px;
+  width: 179px;
+}
+
+.index .frame-27 {
+  align-self: stretch;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(86.26, 83.03, 83.03, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/image-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: var(--primitives-spacing-spacing-4-3);
+  flex: 1;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.index .container-10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 18px;
+  position: relative;
+  top: 23px;
+  width: 196px;
+}
+
+.index .frame-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 47px;
+  position: absolute;
+  top: 4369px;
+}
+
+.index .frame-28 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  overflow: hidden;
+  overflow-x: scroll;
+  padding: 2px 0px;
+  position: relative;
+  width: 1420px;
+}
+
+.index .testimony-card-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.index .frame-29 {
+  background-color: #f7f7f7;
+  border-radius: var(--tokens-dimensions-spacing-md);
+  height: 412px;
+  left: 47px;
+  overflow: hidden;
+  position: absolute;
+  top: 4749px;
+  width: 1420px;
+}
+
+.index .overlap-group-2 {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/vector-16.png);
+  background-size: 100% 100%;
+  height: 390px;
+  left: 9px;
+  position: relative;
+  top: 12px;
+  width: 1408px;
+}
+
+.index .frame-30 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 388px;
+  position: absolute;
+  top: 88px;
+}
+
+.index .feature-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-9);
+  position: relative;
+}
+
+.index .text-wrapper-19 {
+  color: var(--tokens-colors-text-subtitile-text);
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  position: relative;
+  text-align: center;
+  width: 517px;
+}
+
+.index .input-feild {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--primitives-colors-grey-300);
+  border-radius: 100px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 8px 10px 8px 24px;
+  position: relative;
+  width: 626px;
+}
+
+.index .text-7 {
+  color: var(--grey-40);
+  flex: 1;
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  position: relative;
+}
+
+.index .img-4 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.index .avatar-instance {
+  left: 139px !important;
+  position: absolute !important;
+  top: 50px !important;
+}
+
+.index .avatar-3 {
+  object-fit: unset !important;
+}
+
+.index .avatar-4 {
+  left: 1147px !important;
+  position: absolute !important;
+  top: 286px !important;
+}
+
+.index .avatar-5 {
+  left: 310px !important;
+  position: absolute !important;
+  top: 292px !important;
+}
+
+.index .avatar-6 {
+  left: 946px !important;
+  position: absolute !important;
+  top: 46px !important;
+}
+
+.index .avatar-7 {
+  left: 1282px !important;
+  position: absolute !important;
+  top: 66px !important;
+}
+
+.index .avatar-8 {
+  left: 47px !important;
+  position: absolute !important;
+  top: 256px !important;
+}
+
+.index .footer {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 129px;
+  left: 46px;
+  padding: 0px 0px 20px;
+  position: absolute;
+  top: 5385px;
+  width: 1422px;
+}
+
+.index .container-11 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white-99);
+  border: 1px solid;
+  border-color: var(--white-95);
+  border-radius: 100px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.index .logo-2 {
+  height: 32px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 95.95px !important;
+}
+
+.index .footer-link {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.index .link {
+  color: var(--grey-15);
+  font-family: "Urbanist", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.08px;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .text-8 {
+  align-self: stretch;
+  color: transparent;
+  font-family: "Urbanist", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+  text-align: right;
+}
+
+.index .span {
+  color: #646467;
+}
+
+.index .text-wrapper-20 {
+  color: #ff9f2e;
+}
+
+.index .navbar-instance {
+  left: 45px !important;
+  position: fixed !important;
+  top: 31px !important;
+  width: 1425px !important;
+}
+
+.index .navbar-2 {
+  margin-top: -2px !important;
+}
+
+.index .navbar-3 {
+  margin-top: -1px !important;
+}
+
+.index .frame-31 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-9);
+  position: absolute;
+}
+
+.index .text-wrapper-21 {
+  color: #000000;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.index .frame-32 {
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.index .you-can-manage-all {
+  align-self: stretch;
+  position: relative;
+}
+
+.index .text-wrapper-22 {
+  color: var(--tokens-colors-text-subtitile-text);
+  flex: 1;
+  font-family: var(--BTM-font-family);
+  font-size: var(--BTM-font-size);
+  font-style: var(--BTM-font-style);
+  font-weight: var(--BTM-font-weight);
+  letter-spacing: var(--BTM-letter-spacing);
+  line-height: var(--BTM-line-height);
+  position: relative;
+}
+
+.index .image-7 {
+  height: 320px;
+  position: relative;
+}
+
+.index .frame-33 {
+  position: relative;
+}
+
+.index .text-wrapper-23 {
+  color: var(--tokens-colors-text-subtitile-text);
+  flex: 1;
+  font-family: var(--BTM-font-family);
+  font-size: var(--BTM-font-size);
+  font-style: var(--BTM-font-style);
+  font-weight: var(--BTM-font-weight);
+  letter-spacing: var(--BTM-letter-spacing);
+  line-height: var(--BTM-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.index .frame-34 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+}
+
+.index .frame-35 {
+  align-self: stretch;
+  background-color: var(--primitives-colors-grey-400);
+  border-radius: var(--tokens-dimensions-spacing-md);
+  height: 384px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.index .overlap-group-3 {
+  height: 384px;
+  left: 3px;
+  position: relative;
+}
+
+.index .group-2 {
+  height: 361px;
+  left: 231px;
+  position: absolute;
+  top: 11px;
+  width: 250px;
+}
+
+.index .overlap-2 {
+  height: 361px;
+  position: relative;
+}
+
+.index .group-wrapper {
+  height: 207px;
+  left: 31px;
+  position: absolute;
+  top: 20px;
+  transform: rotate(19.96deg);
+  width: 152px;
+}
+
+.index .group-3 {
+  height: 207px;
+  transform: rotate(0.02deg);
+}
+
+.index .group-4 {
+  height: 207px;
+  position: relative;
+  transform: rotate(0.01deg);
+  width: 152px;
+}
+
+.index .overlap-3 {
+  height: 298px;
+  left: -63px;
+  position: absolute;
+  top: -46px;
+  width: 278px;
+}
+
+.index .group-5 {
+  height: 207px;
+  left: 63px;
+  position: absolute;
+  top: 46px;
+  width: 152px;
+}
+
+.index .vector-4 {
+  height: 207px;
+  left: -5368px;
+  position: absolute;
+  top: -9824px;
+  transform: rotate(-19.99deg);
+  width: 152px;
+}
+
+.index .overlap-4 {
+  height: 299px;
+  left: -63px;
+  position: absolute;
+  top: -46px;
+  width: 278px;
+}
+
+.index .vector-5 {
+  height: 242px;
+  left: 35px;
+  position: absolute;
+  top: 28px;
+  transform: rotate(-19.99deg);
+  width: 208px;
+}
+
+.index .group-6 {
+  height: 195px;
+  left: 70px;
+  position: absolute;
+  top: 52px;
+  width: 139px;
+}
+
+.index .overlap-group-4 {
+  height: 283px;
+  left: -62px;
+  position: relative;
+  top: -44px;
+  width: 263px;
+}
+
+.index .vector-6 {
+  height: 229px;
+  left: 34px;
+  position: absolute;
+  top: 27px;
+  transform: rotate(-19.99deg);
+  width: 195px;
+}
+
+.index .image-8 {
+  height: 230px;
+  left: 33px;
+  object-fit: cover;
+  position: absolute;
+  top: 27px;
+  transform: rotate(-19.99deg);
+  width: 196px;
+}
+
+.index .vector-7 {
+  height: 240px;
+  left: 36px;
+  position: absolute;
+  top: 29px;
+  transform: rotate(-19.99deg);
+  width: 206px;
+}
+
+.index .vector-8 {
+  height: 57px;
+  left: 68px;
+  position: absolute;
+  top: 219px;
+  transform: rotate(-19.99deg);
+  width: 143px;
+}
+
+.index .vector-9 {
+  height: 57px;
+  left: 67px;
+  position: absolute;
+  top: 23px;
+  transform: rotate(-19.99deg);
+  width: 143px;
+}
+
+.index .vector-10 {
+  height: 194px;
+  left: 171px;
+  position: absolute;
+  top: 52px;
+  transform: rotate(-19.99deg);
+  width: 76px;
+}
+
+.index .vector-11 {
+  height: 194px;
+  left: 31px;
+  position: absolute;
+  top: 53px;
+  transform: rotate(-19.99deg);
+  width: 76px;
+}
+
+.index .vector-12 {
+  height: 1px;
+  left: -5397px;
+  position: absolute;
+  top: -9593px;
+  transform: rotate(-19.99deg);
+  width: 1px;
+}
+
+.index .vector-13 {
+  height: 1px;
+  left: -5398px;
+  position: absolute;
+  top: -9784px;
+  transform: rotate(-19.99deg);
+  width: 1px;
+}
+
+.index .group-7 {
+  height: 171px;
+  left: 125px;
+  position: absolute;
+  top: 190px;
+  width: 125px;
+}
+
+.index .vector-14 {
+  position: absolute;
+}
+
+.index .vector-15 {
+  height: 384px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.index .frame-36 {
+  align-self: stretch;
+  background: linear-gradient(180deg, rgb(233, 233, 233) 0%, rgba(233, 233, 233, 0) 100%);
+  border: 1px solid;
+  border-color: var(--tokens-colors-button-border);
+  border-radius: var(--tokens-dimensions-spacing-md);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: -1px;
+  margin-right: -1px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.index .text-wrapper-24 {
+  color: var(--tokens-colors-text-text-colors);
+  position: relative;
+}
+
+.index .frame-37 {
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+}
+
+.index .card-5 {
+  margin-top: -8px !important;
+}
+
+.index .class-2 {
+  height: 202px !important;
+  left: -1px !important;
+  position: absolute !important;
+  top: -1px !important;
+  width: 339px !important;
+}
+
+.index .class-3 {
+  height: 202px !important;
+  left: -1px !important;
+  position: absolute !important;
+  top: -1px !important;
+  width: 329px !important;
+}
+
+.index .card-6 {
+  margin-bottom: -5.6px !important;
+}
+
+.index .class-4 {
+  height: 202px !important;
+  left: -1px !important;
+  position: absolute !important;
+  top: 219px !important;
+  width: 334px !important;
+}
+
+.index .class-5 {
+  height: 202px !important;
+  left: 346px !important;
+  position: absolute !important;
+  top: -1px !important;
+  width: 325px !important;
+}
+
+.index .class-6 {
+  height: 202px !important;
+  left: -1px !important;
+  position: absolute !important;
+  top: 439px !important;
+  width: 339px !important;
+}
+
+.index .class-7 {
+  height: 202px !important;
+  left: -1px !important;
+  position: absolute !important;
+  top: 219px !important;
+  width: 329px !important;
+}
+
+.index .class-8 {
+  height: 202px !important;
+  left: -1px !important;
+  position: absolute !important;
+  top: 659px !important;
+  width: 334px !important;
+}
+
+.index .class-9 {
+  height: 202px !important;
+  left: 346px !important;
+  position: absolute !important;
+  top: 219px !important;
+  width: 325px !important;
+}
+
+.index .frame-38 {
+  background-color: #f7f7f7;
+  border-radius: var(--tokens-dimensions-spacing-md);
+  height: 412px;
+  left: 40px;
+  overflow: hidden;
+  position: absolute;
+  top: 4909px;
+  width: 754px;
+}
+
+.index .overlap-5 {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65d32b5268a8bafd15412b96/img/vector-16-2.png);
+  background-size: 100% 100%;
+  height: 391px;
+  left: 9px;
+  position: relative;
+  top: 12px;
+  width: 745px;
+}
+
+.index .overlap-group-5 {
+  height: 196px;
+  left: 91px;
+  position: absolute;
+  top: 96px;
+  width: 583px;
+}
+
+.index .frame-39 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.index .text-wrapper-25 {
+  color: var(--tokens-colors-text-subtitile-text);
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: relative;
+  text-align: center;
+  width: 517px;
+}
+
+.index .input-feild-2 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 0.9px solid;
+  border-color: var(--primitives-colors-grey-300);
+  border-radius: 89.78px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8.98px;
+  justify-content: center;
+  padding: 7.18px 8.98px 7.18px 21.55px;
+  position: relative;
+  width: 562px;
+}
+
+.index .text-9 {
+  color: var(--grey-40);
+  flex: 1;
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 16.2px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.4px;
+  position: relative;
+}
+
+.index .avatar-9 {
+  left: 553px !important;
+  position: absolute !important;
+  top: 35px !important;
+}
+
+.index .avatar-10 {
+  left: 25px !important;
+  position: absolute !important;
+  top: 28px !important;
+}
+
+.index .avatar-11 {
+  left: 300px !important;
+  position: absolute !important;
+  top: 343px !important;
+}
+
+.index .avatar-12 {
+  left: 696px !important;
+  position: absolute !important;
+  top: 288px !important;
+}
+
+.index .avatar-13 {
+  left: 40px !important;
+  position: absolute !important;
+  top: 313px !important;
+}
+
+.index .avatar-14 {
+  left: 564px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.index .feature-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-2);
+  position: absolute;
+}
+
+.index .text-wrapper-26 {
+  align-self: stretch;
+  color: var(--tokens-colors-text-text-colors);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.index .frame-40 {
+  align-items: flex-start;
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.index .class-10 {
+  font-family: "Visby CF-Medium", Helvetica !important;
+  font-size: 18px !important;
+  font-style: unset !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  line-height: 21.6px !important;
+}
+
+.index .class-11 {
+  font-family: var(--BTM-font-family) !important;
+  font-size: var(--BTM-font-size) !important;
+  font-style: var(--BTM-font-style) !important;
+  font-weight: var(--BTM-font-weight) !important;
+  letter-spacing: var(--BTM-letter-spacing) !important;
+  line-height: var(--BTM-line-height) !important;
+}
+
+.index .class-12 {
+  margin-left: -2151px !important;
+  margin-top: -13805px !important;
+}
+
+.index .class-13 {
+  gap: 10px !important;
+}
+
+.index .class-14 {
+  margin-left: -1824.7px !important;
+  margin-top: -12357px !important;
+}
+
+.index .class-15 {
+  margin-left: -2715.75px !important;
+  margin-top: -13805px !important;
+}
+
+.index .class-16 {
+  width: 19.3px !important;
+}
+
+.index .class-17 {
+  margin-left: -3205.75px !important;
+  margin-top: -13805px !important;
+}
+
+.index .class-18 {
+  margin-left: -2539.4px !important;
+  margin-top: -12357px !important;
+}
+
+.index .class-19 {
+  margin-left: -3280.5px !important;
+  margin-top: -13805px !important;
+}
+
+.index .class-20 {
+  margin-left: -3152.4px !important;
+  margin-top: -12357px !important;
+}
+
+.index .class-21 {
+  margin-left: -3770.5px !important;
+  margin-top: -13805px !important;
+}
+
+.index .class-22 {
+  margin-left: -3254.1px !important;
+  margin-top: -12357px !important;
+}
+
+.index .class-23 {
+  margin-left: -3845.25px !important;
+  margin-top: -13805px !important;
+}
+
+.index .class-24 {
+  margin-left: -3867.1px !important;
+  margin-top: -12357px !important;
+}
+
+.index .class-25 {
+  margin-left: -4335.25px !important;
+  margin-top: -13805px !important;
+}
+
+.index .footer-2 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 129px;
+  left: 43px;
+  padding: 0px 0px 20px;
+  position: absolute;
+  top: 5640px;
+  width: 754px;
+}
+
+.index .group-8 {
+  height: 525px;
+  left: 40px;
+  position: absolute;
+  top: 1866px;
+  width: 754px;
+}
+
+.index .overlap-6 {
+  height: 525px;
+  position: relative;
+}
+
+.index .group-9 {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65d32b5268a8bafd15412b96/img/rectangle-30.png);
+  background-size: 100% 100%;
+  height: 525px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 754px;
+}
+
+.index .group-10 {
+  height: 281px;
+  left: 24px;
+  position: absolute;
+  top: 244px;
+  width: 252px;
+}
+
+.index .card-header-2 {
+  align-items: center;
+  background-color: var(--tokens-colors-surface-colors-primary-colors);
+  border-radius: var(--tokens-raduis-sm);
+  display: flex;
+  gap: 10px;
+  left: 490px;
+  overflow: hidden;
+  padding: var(--tokens-raduis-sm) var(--tokens-raduis-lg) var(--tokens-raduis-sm) var(--tokens-raduis-lg);
+  position: absolute;
+  top: 244px;
+  width: 238px;
+}
+
+.index .media-content-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.index .text-wrapper-27 {
+  color: var(--tokens-colors-button-btn-colors);
+  font-family: "Visby CF-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .text-wrapper-28 {
+  color: var(--tokens-colors-button-btn-colors);
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 25.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .card-header-instance {
+  left: 396px !important;
+  position: absolute !important;
+  top: 400px !important;
+  width: 240px !important;
+}
+
+.index .subtitle {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-3);
+  justify-content: center;
+  left: 36px;
+  position: absolute;
+  top: 55px;
+  width: 341px;
+}
+
+.index .text-wrapper-29 {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: var(--header-sm-font-family);
+  font-size: var(--header-sm-font-size);
+  font-style: var(--header-sm-font-style);
+  font-weight: var(--header-sm-font-weight);
+  letter-spacing: var(--header-sm-letter-spacing);
+  line-height: var(--header-sm-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.index .text-wrapper-30 {
+  color: var(--tokens-colors-surface-colors-primary-colors);
+  font-family: var(--body-text-font-family);
+  font-size: var(--body-text-font-size);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  position: relative;
+  width: 341px;
+}
+
+.index .navbar-4 {
+  margin-left: -85.48px !important;
+  margin-top: -2px !important;
+}
+
+.index .navbar-5 {
+  left: 39px !important;
+  position: fixed !important;
+  top: 31px !important;
+}
+
+.index .frame-41 {
+  background-color: #f7f7f7;
+  border-radius: var(--tokens-dimensions-spacing-md);
+  height: 412px;
+  left: 24px;
+  overflow: hidden;
+  position: absolute;
+  top: 6180px;
+  width: 377px;
+}
+
+.index .overlap-7 {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/vector-16-1.png);
+  background-size: 100% 100%;
+  height: 391px;
+  left: 9px;
+  position: absolute;
+  top: 12px;
+  width: 368px;
+}
+
+.index .feature-5 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--primitives-spacing-spacing-4-9);
+  left: 50px;
+  position: absolute;
+  top: 78px;
+  width: 260px;
+}
+
+.index .text-wrapper-31 {
+  align-self: stretch;
+  color: var(--tokens-colors-text-text-colors);
+  font-family: var(--header-xs-font-family);
+  font-size: var(--header-xs-font-size);
+  font-style: var(--header-xs-font-style);
+  font-weight: var(--header-xs-font-weight);
+  letter-spacing: var(--header-xs-letter-spacing);
+  line-height: var(--header-xs-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.index .text-wrapper-32 {
+  align-self: stretch;
+  color: var(--tokens-colors-text-subtitile-text);
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  position: relative;
+  text-align: center;
+}
+
+.index .input-feild-3 {
+  background-color: #ffffff;
+  border: 0.9px solid;
+  border-color: var(--primitives-colors-grey-300);
+  border-radius: 89.78px;
+  height: 58px;
+  left: 50px;
+  position: absolute;
+  top: 254px;
+  width: 260px;
+}
+
+.index .text-10 {
+  color: var(--grey-40);
+  font-family: "Visby CF-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 14px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 14.4px;
+  position: absolute;
+  top: 22px;
+  white-space: nowrap;
+}
+
+.index .send {
+  height: 43px;
+  left: 208px;
+  position: absolute;
+  top: 7px;
+  width: 43px;
+}
+
+.index .avatar-15 {
+  left: 289px !important;
+  position: absolute !important;
+  top: 1px !important;
+}
+
+.index .avatar-16 {
+  left: 34px !important;
+  position: absolute !important;
+  top: 317px !important;
+}
+
+.index .avatar-17 {
+  left: 705px !important;
+  position: absolute !important;
+  top: 300px !important;
+}
+
+.index .avatar-18 {
+  margin-left: -3346px !important;
+  margin-top: -14341px !important;
+}
+
+.index .avatar-19 {
+  left: 653px !important;
+  position: absolute !important;
+  top: 143px !important;
+}
+
+.index .avatar-20 {
+  margin-left: -3294px !important;
+  margin-top: -14184px !important;
+  object-fit: unset !important;
+}
+
+.index .avatar-21 {
+  left: 573px !important;
+  position: absolute !important;
+  top: 12px !important;
+}
+
+.index .avatar-22 {
+  margin-left: -3214px !important;
+  margin-top: -14053px !important;
+}
+
+.index .footer-3 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 129px;
+  left: 24px;
+  padding: 0px 0px 20px;
+  position: absolute;
+  top: 6723px;
+  width: 378px;
+}
+
+.index .text-11 {
+  align-self: stretch;
+  color: transparent;
+  font-family: "Urbanist", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-bottom: -20px;
+  position: relative;
+  text-align: right;
+}
+
+.index .group-11 {
+  height: 525px;
+  left: 24px;
+  position: absolute;
+  top: 2829px;
+  width: 394px;
+}
+
+.index .navbar-6 {
+  left: 23px !important;
+  position: fixed !important;
+  top: 31px !important;
+}

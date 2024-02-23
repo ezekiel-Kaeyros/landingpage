@@ -1,0 +1,121 @@
+.avatar .img-2 {
+  object-fit: cover;
+  position: relative;
+}
+
+.avatar .ellipse {
+  background-color: #5cc906;
+  border-color: #ffffff;
+  position: relative;
+}
+
+.avatar.online-false {
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+}
+
+.avatar.online-true {
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.avatar.online-true.xl {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/avatar-2@2x.png);
+  height: 100px;
+  width: 100px;
+}
+
+.avatar.online-true.md {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/avatar@2x.png);
+  height: 60px;
+  width: 60px;
+}
+
+.avatar.lg.online-true {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/avatar-4@2x.png);
+  height: 80px;
+  width: 80px;
+}
+
+.avatar.online-true.sm {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/avatar-6@2x.png);
+  height: 40px;
+  width: 40px;
+}
+
+.avatar.xs.online-true {
+  background-image: url(https://cdn.animaapp.com/projects/65cc79cff9ce0f2159399612/releases/65cded7faf1edc31c38a7e07/img/avatar-8@2x.png);
+  height: 30px;
+  width: 30px;
+}
+
+.avatar.xl .img-2 {
+  height: 100px;
+  width: 100px;
+}
+
+.avatar.xs .img-2 {
+  height: 30px;
+  width: 30px;
+}
+
+.avatar.md .img-2 {
+  height: 60px;
+  width: 60px;
+}
+
+.avatar.sm .img-2 {
+  height: 40px;
+  width: 40px;
+}
+
+.avatar.lg .img-2 {
+  height: 80px;
+  width: 80px;
+}
+
+.avatar.xl .ellipse {
+  border: 3px solid;
+  border-radius: 11.5px;
+  height: 23px;
+  left: 64px;
+  top: 80px;
+  width: 23px;
+}
+
+.avatar.xs .ellipse {
+  border: 1px solid;
+  border-radius: 3.5px;
+  height: 7px;
+  left: 20px;
+  top: 24px;
+  width: 7px;
+}
+
+.avatar.md .ellipse {
+  border: 2px solid;
+  border-radius: 6.5px;
+  height: 13px;
+  left: 37px;
+  top: 49px;
+  width: 13px;
+}
+
+.avatar.sm .ellipse {
+  border: 1px solid;
+  border-radius: 3.5px;
+  height: 7px;
+  left: 27px;
+  top: 34px;
+  width: 7px;
+}
+
+.avatar.lg .ellipse {
+  border: 3px solid;
+  border-radius: 8px;
+  height: 16px;
+  left: 52px;
+  top: 67px;
+  width: 16px;
+}
